@@ -1,0 +1,43 @@
+.searchHeader {
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+}
+
+.logo {
+  margin: 0 0.4rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.title {
+  margin: 0;
+  height: 3rem;
+  color: white;
+  cursor: pointer;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  padding: 0 0.4rem;
+  flex-basis: 100%;
+}
+
+.input {
+  width: 100%;
+  height: 2rem;
+  outline: none;
+}
+
+.searchBtn {
+  cursor: pointer;
+}
+
+.searchBtn img {
+  width: 1.4rem;
+  height: 1.4rem;
+}
